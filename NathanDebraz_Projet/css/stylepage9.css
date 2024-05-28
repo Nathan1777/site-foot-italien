@@ -1,0 +1,87 @@
+.onglets{
+	text-align:right; /*aligner le texte a droite*/
+	padding: 10px; /*espace entre les contenus */
+	background-color: red; /*Définis le couleur de fond de la nav barre*/
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Permet de créer une ombre autour de chaque élements*/
+}
+nav .onglets a:hover {
+	background-color : #CA2502 ; /*Quand je survole l'élément, la couleur change*/
+}
+
+nav .onglets {
+	display: flex; /*Rendre le positionnement des élements plus facile, flexible*/
+	justify-content: space-between; /*Aligner les élements et faire un espace entre chaque*/
+}
+
+nav .onglets a{
+	color: white; /*change la couleur du texte en blanc*/
+	border-radius: 3px;/*arrondir les bords de 3px*/
+	font-size: 20px; /*change le taille du texte*/
+	text-decoration: none; /*Permet de retirer le soulignement de l'URL*/
+}
+
+#titre{
+	text-align: center; /*aligner le texte au centre*/
+	font-size: 50px;/*Modifier la taille de la police*/
+	color: red; /*Changer la couleur du texte*/
+	text-decoration: underline;/* Pour souligner le texte*/
+}
+
+table, th, td{
+	border:2px solid red ; /*Créer une bordure de 2px et changer la couleur de celle-ci*/
+	border-collapse: collapse; /*Fusionner les bordures*/
+}
+
+table{
+	width: 100%; /*Occuper 100% de la largeur du conteneur*/
+	font-size:18px; /*Taille de la police*/
+}
+
+th, td{
+	text-align: center; /*Aligner le texte au centre*/
+	padding: 10px; /*Espace de 10px entre la bordure et le texte*/
+	border-bottom: 2px; /*Créer une bordure du bas*/
+	font-weight: bold; /*Mettre le texte en gras*/
+}
+
+th {
+	background-color: red; /*Changer la couleur de fond*/
+	color: white; /*Changer la couleur de la police en blanc*/
+	font-weight: bold; /*Mettre le texte en gras*/
+	text-transform: uppercase; /*Transforme toutes les lettres en majuscules*/
+}
+
+td {
+	background-color: #fff; /*Change la couleur de fond en blanc*/
+}
+
+td:hover{
+	background-color: #CA2502; /* La couleur de fond du td devient grise quand je survole la case*/
+	color: white;
+}
+
+footer{
+	background-color: red;/* Mettre une couleur de fond*/
+}
+footer p{
+	color: white;/* Changer la couleur du texte en blanc*/
+	text-align: center;/*Aligner le texte au centre*/
+	font-size: 25px; /*Modifier le taille du texte*/
+}
+
+#ga{
+	background-color: red;/* Mettre une couleur de fond*/
+	color: white; /*Changer la couleur de la police en blanc*/
+}
+
+#gb{
+	border:2px solid red ; /*Créer une bordure de 2px et changer la couleur de celle-ci*/
+	background-color: red;/* Mettre une couleur de fond*/
+	color: white; /*Changer la couleur de la police en blanc*/
+}
+
+#gc{
+	border:2px solid red ; /*Créer une bordure de 2px et changer la couleur de celle-ci*/
+	background-color: red;/* Mettre une couleur de fond*/
+	color: white; /*Changer la couleur de la police en blanc*/
+}

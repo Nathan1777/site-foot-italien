@@ -1,0 +1,80 @@
+.onglets{
+	text-align:right; /*aligner le texte a droite*/
+	padding: 10px; /*espace entre les contenus */
+	background-color: #3E78E5; /*Définis le couleur de fond de la nav barre*/
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Permet de créer une ombre autour de chaque élements*/
+}
+nav .onglets a:hover {
+	background-color : #0056AB ; /*Quand je survole l'élément, la couleur change*/
+}
+
+nav .onglets {
+	display: flex; /*Rendre le positionnement des élements plus facile, flexible*/
+	justify-content: space-between; /*Aligner les élements et faire un espace entre chaque*/
+}
+
+nav .onglets a{
+	color: white; /*change la couleur du texte en blanc*/
+	border-radius: 3px;/*arrondir les bords de 3px*/
+	font-size: 20px; /*change le taille du texte*/
+	text-decoration: none; /*Permet de retirer le soulignement de l'URL*/
+}
+
+#titre{
+	text-align: center; /*aligner le texte au centre*/
+	font-size: 50px;/*Modifier la taille de la police*/
+	color: #3E78E5; /*Changer la couleur du texte*/
+	text-decoration: underline;/* Pour souligner le texte*/
+}
+
+#hist{
+	color: #3E78E5; /*Changer la couleur de la police*/
+	font-size: 25px; /* changer la taille de la police*/
+	text-decoration: underline; /* Souligner le texte*/
+	font-weight: bold; /* Mettre le texte en gras*/
+}
+
+.texte{
+	font-weight: bold; /* Mettre le texte en gras*/
+	font-size: 19px; /* Changer la taille de la police*/
+	margin-left: 13px; /* Mettre une marge de 13px par rapport à la gauche.*/
+}
+
+#fonct{
+	color: #3E78E5;  /*Changer la couleur de la police*/
+	font-size: 25px; /*Modifier la taille de la police*/
+	text-decoration: underline; /* Souligner le texte*/
+	font-weight: bold; /* Mettre le texte en gras*/
+}
+
+#reco{
+	color: #3E78E5; /*Changer la couleur de la police*/
+	font-size: 25px; /*Modifier la taille de la police*/
+	text-decoration: underline; /* Souligner le texte*/
+	font-weight: bold; /* Mettre le texte en gras*/
+}
+
+#phsa{
+	margin-left: 1030px; /* Mettre une marge de 1030px par rapport à la gauche.*/
+	margin-top: -50px; /* Mettre une marge de -50px par rapport au haut de la page.*/
+}
+
+#logo{
+	color: #3E78E5; /*Changer la couleur de la police*/
+	font-size: 25px; /*Modifier la taille de la police*/
+	text-decoration: underline; /* Souligner le texte*/
+	font-weight: bold; /* Mettre le texte en gras*/
+}
+
+#phlo{
+	margin-left: 50px; /* Mettre une marge de 50px par rapport à la gauche.*/
+}
+
+footer{
+	background-color: #3E78E5;/* Mettre une couleur de fond*/
+}
+footer p{
+	color: white;/* Changer la couleur du texte en blanc*/
+	text-align: center;/*Aligner le texte au centre*/
+	font-size: 25px; /*Modifier le taille du texte*/
+}

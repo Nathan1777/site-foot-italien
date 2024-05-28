@@ -1,0 +1,152 @@
+.onglets{
+	text-align:right; /*aligner le texte a droite*/
+	padding: 10px; /*espace entre les contenus */
+	background-color: #4DC21B; /*Définis le couleur de fond de la nav barre*/
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Permet de créer une ombre autour de chaque élements*/
+}
+nav .onglets a:hover {
+	background-color : #3BA90B ; /*Quand je survole l'élément, la couleur change*/
+}
+
+nav .onglets {
+	display: flex; /*Rendre le positionnement des élements plus facile, flexible*/
+	justify-content: space-between; /*Aligner les élements et faire un espace entre chaque*/
+}
+
+nav .onglets a{
+	color: white; /*change la couleur du texte en blanc*/
+	border-radius: 3px;/*arrondir les bords de 3px*/
+	font-size: 20px; /*change le taille du texte*/
+	text-decoration: none; /*Permet de retirer le soulignement de l'URL*/
+}
+
+#titre{
+	text-align: center; /*aligner le texte au centre*/
+	font-size: 50px;/*Modifier la taille de la police*/
+	color: #4DC21B; /*Changer la couleur du texte*/
+	text-decoration: underline;/* Pour souligner le texte*/
+}
+#vialli{
+	background-color: red; /*Changer la couleur de fond*/
+}
+#pv{
+	font-weight: bold; /*Mettre le texte en gras*/
+	font-size:22px; /*Changer la taille de la police*/
+	text-decoration: underline; /*Souligner le texte*/
+}
+#phv{
+	margin-left: 30px; /* Mettre une marge de 30px par rapport à la gauche*/
+}
+
+.pv2{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	margin-top: -20px; /* Mettre une marge de -20px par rapport au haut de la page*/
+}
+.pv3{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+}
+
+#immobile{
+	background-color: #46C4FF; /*Changer la couleur de fond*/
+}
+#pi{
+	font-weight: bold; /*Mettre le texte en gras*/
+	font-size:22px; /*Changer la taille de la police*/
+	text-decoration: underline; /*Souligner le texte*/
+	color: white;
+}
+#phi{
+	margin-left: 30px; /* Mettre une marge de 30px par rapport à la gauche*/
+}
+
+.pi2{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	margin-top: -20px; /* Mettre une marge de -20px par rapport au haut de la page*/
+	color: white;
+}
+.pi3{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	color: white;
+}
+
+#materazzi{
+	background-color: red; /*Changer la couleur de fond*/
+}
+#pz{
+	font-weight: bold; /*Mettre le texte en gras*/
+	font-size:22px; /*Changer la taille de la police*/
+	text-decoration: underline; /*Souligner le texte*/
+}
+#phz{
+	margin-left: 30px; /* Mettre une marge de 30px par rapport à la gauche*/
+}
+
+.pz2{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	margin-top: -20px; /* Mettre une marge de -20px par rapport au haut de la page*/
+}
+.pz3{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+}
+
+#matteoli{
+	background-color: yellow; /*Changer la couleur de fond*/
+}
+#pmat{
+	font-weight: bold; /*Mettre le texte en gras*/
+	font-size:22px; /*Changer la taille de la police*/
+	text-decoration: underline; /*Souligner le texte*/
+}
+#phmat{
+	margin-left: 30px; /* Mettre une marge de 30px par rapport à la gauche*/
+}
+
+.pmat2{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	margin-top: -20px; /* Mettre une marge de -20px par rapport au haut de la page*/
+}
+.pmat3{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+}
+
+#schwoch{
+	background-color: #4DC21B; /*Changer la couleur de fond*/
+	color: white; /*Mettre la police en blanc */
+}
+#psch{
+	font-weight: bold; /*Mettre le texte en gras*/
+	font-size:22px; /*Changer la taille de la police*/
+	text-decoration: underline; /*Souligner le texte*/
+}
+#phsch{
+	margin-left: 30px; /* Mettre une marge de 30px par rapport à la gauche*/
+}
+
+.psch2{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	margin-top: -20px; /* Mettre une marge de -20px par rapport au haut de la page*/
+	color: white; /*Mettre la police en blanc */
+}
+.psch3{
+	margin-left: 500px; /* Mettre une marge de 500px par rapport à la gauche*/
+	font-size: 25px; /* Mettre une marge de 500px par rapport à la gauche*/
+	color: white; /*Mettre la police en blanc*/
+}
+
+footer{
+	background-color: #4DC21B ;/* Mettre une couleur de fond*/
+	color: white; /*Mettre la police en blanc */
+}
+footer p{
+	text-align: center;/*Aligner le texte au centre*/
+	font-size: 25px; /*Modifier le taille du texte*/
+}
